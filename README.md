@@ -1,10 +1,2 @@
-"# Lumio" 
-"# Lumio" 
-echo "# Lumio" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/MichelaGhezziA/Lumio.git
-git push -u origin master
-
-…or push an existing repository from the
+This is the old version of an app I prototyped for my final uni project.
+The final version is built with Unity and Vuforia (sooner or later I will create a repo for it).
