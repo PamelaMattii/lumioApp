@@ -1,0 +1,43 @@
+html, body{
+	height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.qrOverlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.4);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	pointer-events: none;
+  transition: opacity .3s;
+}
+
+
+.qrCode{
+	width: 400px;
+	height: 400px;
+	background-color: red;
+}
+
+.scene3D{
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity .3s .1s;
+}
+
+.playGame .qrOverlay{
+	opacity: 0;
+}
+
+.playGame .scene3D{
+	opacity: 1;
+}
+
+
